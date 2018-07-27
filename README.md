@@ -3,7 +3,7 @@ Java REST API client for the H2O machine learning platform.  In addition to buil
 using H2O, this library facilitates the use of Rapids expressions for data frame manipulation using the methods provided in the H2OFrame 
 class. 
 
-For API details and schema objects used by this client see:
+For underlying API details and schema objects used by this client see:
 <br>http://docs.h2o.ai/h2o/latest-stable/h2o-docs/rest-api-reference.html
 
 Developed for AT&T by Chris Ranella, July 2018
