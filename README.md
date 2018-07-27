@@ -4,6 +4,7 @@ in H2O, this library facilitates the use of Rapids expressions for data frame ma
 class. 
 
 For API details and schema objects used by this client see:
+
 http://docs.h2o.ai/h2o/latest-stable/h2o-docs/rest-api-reference.html
 
 Developed for AT&T by Chris Ranella, July 2018
