@@ -1,0 +1,5 @@
+This package is meant to be merged into the H2O open source project.
+See https://github.com/h2oai/h2o-3/blob/master/CONTRIBUTING.md
+
+Pending the merge, please fork this repository and create pull requests for bug fixes and version compatibility updates.
+
