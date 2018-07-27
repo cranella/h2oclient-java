@@ -21,8 +21,14 @@ https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 Use H2OConnection.newInstance(HttpUrl url) to connect to existing h2o cluster
 
 #### example:
+```
 HttpUrl url = new HttpUrl.Builder().scheme("http").host("localhost").port(54321).build();
-H2OConnection conn = H2OConnection.newInstance(url);
+try(H2OConnection conn = H2OConnection.newInstance(url)) {
+  YOUR CODE HERE
+} catch(H2OException e) {
+  ...
+}
+```
 
 # Help
 Gitter H2O Developer Chat:
