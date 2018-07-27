@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/h2o-client.iml" filepath="$PROJECT_DIR$/h2o-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h2o-client.iml" filepath="$PROJECT_DIR$/h2o-client.iml" />
     </modules>
   </component>
 </project>
