@@ -14,7 +14,7 @@ See latest release here: http://h2o-release.s3.amazonaws.com/h2o/rel-slater/3/in
 
 # Installation
 Build using maven and import jar into your Java project
-<br>(https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+<br>https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 # Configuration
 Use H2OConnection.newInstance(HttpUrl url) to connect to existing H2O cluster
