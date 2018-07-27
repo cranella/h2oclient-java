@@ -1,5 +1,8 @@
 # h2oclient-java
-Java REST API client for the H2O machine learning platform.  In addition to building, training, and downloading machine learning models in H2O, this library facilitates the use of Rapids expressions for data frame manipulation using the methods provided in the H2OFrame class.  
+Java REST API client for the H2O machine learning platform.  In addition to building, training, and downloading machine learning models 
+in H2O, this library facilitates the use of Rapids expressions for data frame manipulation using the methods provided in the H2OFrame 
+class. 
+
 For API details and schema objects used by this client see:
 http://docs.h2o.ai/h2o/latest-stable/h2o-docs/rest-api-reference.html
 
