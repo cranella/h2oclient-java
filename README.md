@@ -17,7 +17,7 @@ https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 # Configuration
 Use H2OConnection.newInstance(HttpUrl url) to connect to existing h2o cluster
 
-####example:
+#### example:
 HttpUrl url = new HttpUrl.Builder().scheme("http").host("localhost").port(54321).build();
 H2OConnection conn = H2OConnection.newInstance(url);
 
