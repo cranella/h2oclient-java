@@ -9,13 +9,14 @@ For API details and schema objects used by this client see:
 Developed for AT&T by Chris Ranella, July 2018
 
 # Requirements
-H2O version 3.2.x <br>
+H2O version 3.2.x
+
 See latest release here: 
 <br>http://h2o-release.s3.amazonaws.com/h2o/rel-slater/3/index.html 
 
 # Installation
 Build using maven and import jar into your Java project
-<br>https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+<br>(https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 # Configuration
 Use H2OConnection.newInstance(HttpUrl url) to connect to existing H2O cluster
