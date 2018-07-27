@@ -4,13 +4,14 @@ using H2O, this library facilitates the use of Rapids expressions for data frame
 class. 
 
 For API details and schema objects used by this client see:
-http://docs.h2o.ai/h2o/latest-stable/h2o-docs/rest-api-reference.html
+<br>http://docs.h2o.ai/h2o/latest-stable/h2o-docs/rest-api-reference.html
 
 Developed for AT&T by Chris Ranella, July 2018
 
 # Requirements
 H2O version 3.2.x <br>
-See latest release here: http://h2o-release.s3.amazonaws.com/h2o/rel-slater/3/index.html 
+See latest release here: 
+<br>http://h2o-release.s3.amazonaws.com/h2o/rel-slater/3/index.html 
 
 # Installation
 Build using maven and import jar into your Java project
