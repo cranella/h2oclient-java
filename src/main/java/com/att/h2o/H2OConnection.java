@@ -21,10 +21,26 @@ import java.util.HashMap;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-/*
-@author Chris Ranella
+/**
+ * Encapsulates a connection to a specific H2O cluster as a singleton object. All operations performed on the cluster
+ * are sent as requests within the context of an <code>H2OConnection</code> instance. These include all cluster operations
+ * performed by methods in <code>H2OFrame</code>, <code>H2OModel</code>, <code>H2OModelBuilder</code>, and derived subclasses.
+ * This class also serves as an entry point to your cluster for uploading/importing data and running parse jobs to convert raw data to frames.
+ * <p>
+ * Rapids expression evaluation involves obtaining and passing a session key with each request which is stored in this class
+ * and automatically generated upon the first call to evaluate any Rapids expression, or in other words, when using the methods in <code>H2OFrame</code>
+ * to manipulate frame data.
+ * <p>
+ * Call <code>H2OConnection.newInstance(Http url)</code> to initialize.  To close an opened Rapids session, call <code>H2OConnection.close()</code>
+ * or initialize in a try-with-resources block as this class implements interface <code>AutoCloseable</code>.
+ *
+ *@author Chris Ranella
+ *
+ *@see H2OFrame
+ *@see H2OModel
+ *@see H2OModelBuilder
+ *
  */
-
 public class H2OConnection implements AutoCloseable {
 
     private Retrofit retrofit;

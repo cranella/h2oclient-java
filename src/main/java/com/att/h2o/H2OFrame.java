@@ -20,6 +20,19 @@ import java.util.Set;
 
 import static com.att.h2o.Util.keyToString;
 
+/**
+ * A client side reference to a lazily instantiated H2O data frame.  This class encapsulates all the meta data
+ * needed to represent either an existing data frame object in an H2O cluster or the Rapids expression needed to create
+ * that object when called upon to do so.  Actions which trigger the creation of the server side data object include calls to
+ * methods <code>getSummary</code>, <code>execute</code>, or <code>assign</code>.
+ * <p>
+ * This class depends on an open connection to an H2O cluster having been initialized by <code>H2OConnection</code>.
+ *
+ * @author Chris Ranella
+ *
+ * @see H2OConnection
+ * @see H2OBoolFrame
+ */
 public class H2OFrame {
 
     protected String frameId;
