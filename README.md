@@ -1,7 +1,8 @@
 # Introduction
-Java client library for the <a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html">H2O machine learning platform</a>.  In addition to providing methods for training and 
-downloading models on an H2O cluster, this library facilitates the use of Rapids expressions for data munging and 
-feature generation using the methods provided in the H2OFrame class. 
+Java client library for the <a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html">H2O machine learning platform</a>.  In
+addition to providing methods for training and downloading models on an H2O cluster, this library facilitates the use of Rapids 
+expressions for data munging and feature generation using the methods provided in the H2OFrame class. The classes in this library make
+use of the H2O REST API to fully access H2O's capabilities as a distributed, parallel, in-memory data processing engine from any Java application.
 
 Developed for AT&T by Chris Ranella, July 2018
 
@@ -36,5 +37,5 @@ Gitter H2O Developer Chat: https://gitter.im/h2oai/h2o-3
 Javadoc:
 https://cranella.github.io/h2oclient-java/
 
-For underlying API details and schema objects used by this client see:
+For H2O REST API details and schema objects used by this client see:
 <br>http://docs.h2o.ai/h2o/latest-stable/h2o-docs/rest-api-reference.html
