@@ -18,7 +18,7 @@ Build using maven and import jar into your Java project
 <br>(https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 # Configuration
-Use H2OConnection.newInstance(HttpUrl url) to connect to existing H2O cluster
+Use H2OConnection.newInstance(HttpUrl url) to connect to an existing H2O cluster
 
 #### example:
 ```
