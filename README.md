@@ -1,7 +1,7 @@
 # Introduction
 Java client library for the <a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html">H2O machine learning platform</a>.  In
 addition to providing an interface for training and downloading models, this library facilitates the use of Rapids 
-expressions for data munging and feature generation with the methods provided in the H2OFrame class. The classes in this library
+expressions for data munging and feature generation by means of the methods provided in the H2OFrame class. The classes in this library
 make use of the H2O REST API to provide full access to H2O's capabilities as a distributed, parallel, in-memory data processing
 engine from any Java application.
 
