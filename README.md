@@ -1,6 +1,6 @@
 # Introduction
-Java REST API client for the H2O machine learning model building platform.  In addition to providing methods for training and 
-downloading machine learning models on an H2O cluster, this library facilitates the use of Rapids expressions for data munging and 
+Java REST API client for the <a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html">H2O machine learning platform</a>.  In addition to providing methods for training and 
+downloading models on an H2O cluster, this library facilitates the use of Rapids expressions for data munging and 
 feature generation using the methods provided in the H2OFrame class. 
 
 Developed for AT&T by Chris Ranella, July 2018
