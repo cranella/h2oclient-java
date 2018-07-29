@@ -1,5 +1,5 @@
 # Introduction
-Java REST API client for the <a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html">H2O machine learning platform</a>.  In addition to providing methods for training and 
+Java client library for the <a href="http://docs.h2o.ai/h2o/latest-stable/h2o-docs/index.html">H2O machine learning platform</a>.  In addition to providing methods for training and 
 downloading models on an H2O cluster, this library facilitates the use of Rapids expressions for data munging and 
 feature generation using the methods provided in the H2OFrame class. 
 
