@@ -32,7 +32,7 @@ try(H2OConnection conn = H2OConnection.newInstance(url)) {
 
 # Help
 Javadoc:
-<br>https://cranella.github.io/h2oclient-java/
+https://cranella.github.io/h2oclient-java/
 
 Gitter H2O Developer Chat:
 https://gitter.im/h2oai/h2o-3
